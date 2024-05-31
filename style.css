@@ -109,7 +109,7 @@ input:focus {
     box-shadow: 2px 2px 2px 0px rgb(0 0 0 / 0.2);
 }
 
-input[type='password']:invalid {
+input:invalid:focus {
     border: 1px solid red;
 }
 
@@ -129,6 +129,7 @@ button {
     font-weight: 600;
     margin: 34px 0;
     transition: all 150ms;
+    box-shadow: 3px 2px 4px 0px rgb(0 0 0 / 0.2);
 }
 
 button:hover {
