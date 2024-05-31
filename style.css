@@ -28,6 +28,7 @@ body {
     position: absolute;
     top: 150px;
     background-color: rgb(0 0 0 / 50%);
+    backdrop-filter: blur(4px);
     height: var(--logoHeight);
     width: 100%;
     padding: 15px 0;
