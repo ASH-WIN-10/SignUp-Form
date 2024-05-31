@@ -69,7 +69,7 @@ body {
 }
 
 .form > span {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 24px;
 }
@@ -125,7 +125,7 @@ button {
     color: white;
     padding: 12px 34px;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 1.1rem;
     font-weight: 600;
     margin: 34px 0;
     transition: all 150ms;
@@ -142,5 +142,17 @@ button:active {
 }
 
 .last > span {
+    font-size: 1.1rem;
     display: block;
+}
+
+.info {
+    font-size: 1.35rem;
+    font-weight: 600;
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
