@@ -21,34 +21,46 @@
       
       <div class="form">
         <span>Let's do this!</span>
-        <form>
+        <form action="#">
           <fieldset>
-            <label for="first_name">FIRST NAME</label>
-            <input type="text" id="first_name" name="first_name"/>
+            <div>
+              <label for="first_name">FIRST NAME</label>
+              <input type="text" id="first_name" name="first_name"/>
+            </div>
             
-            <label for="last_name">LAST NAME</label>
-            <input type="text" id="last_name" name="last_name"/>
+            <div>
+              <label for="last_name">LAST NAME</label>
+              <input type="text" id="last_name" name="last_name"/>
+            </div>
           </fieldset>
 
           <fieldset>
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email"/>
+            <div>
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email"/>
+            </div>
 
-            <label for="phone_number">PHONE NUMBER</label>
-            <input type="tel" name="phone_number" id="phone_number" pattern="[0-9]{10}" maxlength="10"/>
+            <div>
+              <label for="phone_number">PHONE NUMBER</label>
+              <input type="tel" name="phone_number" id="phone_number" pattern="[0-9]{10}" maxlength="10"/>
+            </div>
           </fieldset>
           
           <fieldset>
-            <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password"/>
+            <div>
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password"/>
+            </div>
             
-            <label for="confirm_password">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm_password" id="confirm_password"/>
+            <div>
+              <label for="confirm_password">CONFIRM PASSWORD</label>
+              <input type="password" name="confirm_password" id="confirm_password"/>
+            </div>
           </fieldset>
         </form>
       </div>
 
-      <div>
+      <div class="last">
         <button type="submit" id="submit-btn">Create Account</button>
         <span>Already have a account? <a href="#">Login</a></span>
       </div>
