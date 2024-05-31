@@ -63,7 +63,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 0;
     padding: var(--formGap) 0;
     padding-left: 50px;
     padding-bottom: calc(var(--formGap) + 8px);
@@ -110,6 +109,38 @@ input:focus {
     box-shadow: 2px 2px 2px 0px rgb(0 0 0 / 0.2);
 }
 
-input:invalid {
+input[type='password']:invalid {
     border: 1px solid red;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #596D48;
+}
+
+button {
+    border: none;
+    background-color: #596D48;
+    color: white;
+    padding: 12px 34px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 34px 0;
+    transition: all 150ms;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #667d51;
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.last > span {
+    display: block;
 }
